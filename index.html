@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Students and Teachers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="teacher-selector">
+    <label for="teacher-select">Select a teacher:</label>
+    <select id="teacher-select" onchange="displayRelated('teacher')">
+      <option value="teacher1">Teacher 1</option>
+      <option value="teacher2">Teacher 2</option>
+    </select>
+  </div>
+
+  <div id="student-selector">
+    <label for="student-select">Select a student:</label>
+    <select id="student-select" onchange="displayRelated('student')">
+      <option value="student1">Student 1</option>
+      <option value="student2">Student 2</option>
+    </select>
+  </div>
+
+  <div id="display-related"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

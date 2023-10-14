@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  #teacher-selector, #student-selector {
+    margin-bottom: 10px;
+  }
+  
+  #display-related {
+    margin-top: 20px;
+  }
+  
+  #display-related ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #display-related ul li {
+    margin-bottom: 5px;
+  }
+  
